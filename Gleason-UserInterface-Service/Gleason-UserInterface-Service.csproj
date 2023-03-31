@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Gleason_UserInterface_Service-3046B268-B186-402F-8C2D-C93125D980F8</UserSecretsId>
+    <RootNamespace>Gleason_UserInterface_Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.27.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.27.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Swashbuckle" />
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="System.IdentityModel.Tokens.Jwt" />
+    <None Remove="Microsoft.IdentityModel.Tokens" />
+    <None Remove="Services\" />
+    <None Remove="Models\" />
+    <None Remove="AuthenticationMiddleware\" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+    <None Remove="Helper\" />
+    <None Remove="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{767AF5DA-C426-4F8F-8A98-7E5A42E73721}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gleason-UserInterface-Service/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="Gleason-UserInterface-Service/Startup.cs" Line="35" Column="73" />
+      <File FileName="Gleason-UserInterface-Service/Program.cs" Line="1" Column="1" />
+      <File FileName="Gleason-UserInterface-Service/Controllers/WeatherForecastController.cs" Line="14" Column="14" />
+      <File FileName="Gleason-UserInterface-Service/appsettings.json" Line="9" Column="59" />
+      <File FileName="Gleason-UserInterface-Service/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Gleason-UserInterface-Service/Services/JwtService.cs" Line="34" Column="19" />
+      <File FileName="Gleason-UserInterface-Service/Models/User.cs" Line="4" Column="22" />
+      <File FileName="Gleason-UserInterface-Service/Middleware/AuthenticationMiddleware.cs" Line="28" Column="45" />
+      <File FileName="Gleason-UserInterface-Service/Controllers/TokenController.cs" Line="22" Column="1" />
+      <File FileName="Gleason-UserInterface-Service/Helper/ApiContext.cs" Line="12" Column="70" />
+      <File FileName="Gleason-UserInterface-Service/Repository/IGleasonRepository.cs" Line="4" Column="40" />
+      <File FileName="Gleason-UserInterface-Service/Repository/GleasonRepository.cs" Line="35" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Gleason-UserInterface-Service" expanded="True">
+            <Node name="Gleason-UserInterface-Service" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
+              <Node name="Helper" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repository" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Gleason-UserInterface-Service PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
